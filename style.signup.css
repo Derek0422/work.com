@@ -1,0 +1,96 @@
+body{
+    color: white;
+    background:linear-gradient(135deg,#391313,rgb(15, 16, 18));
+}
+.container{
+    /* display: grid;
+    align-self: center; */
+    padding-top: 2rem;
+}
+
+.inp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 1rem;
+    gap: 3rem;
+}
+
+.inp input{
+    padding: 15px;
+    width: 90%;
+    background: transparent;
+    border: none;
+    color: white;
+    outline: none;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+.inp input:hover{
+    background-color: white;
+    color: black;
+}
+
+
+button{
+  width: 40%;
+  /* align-self: center; */
+  padding: 1rem;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  background-color: orange;
+  color: white;
+  font-weight: 700;
+}
+.lod{
+    width:200%;
+    /* align-self: center; */
+    padding: 1rem;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    background-color: orange;
+    color: white;
+    font-weight: 700;
+  }
+.bb{
+    display: flex;
+    padding-top: 2rem;
+    align-items: center;
+    padding-left: 2rem;
+}
+.ion{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    font-size: 2rem;
+    color: orange;
+    justify-content: space-around;
+    padding-top: 2rem;
+}
+input{
+    padding: 10px;
+    /* width: 50%; */
+    width: 30%;
+  /* align-self: center; */
+  padding: 1rem;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  background-color: orange;
+  color: white;
+  font-weight: 700;
+}
+h1{
+    text-align: center;
+    font-weight: 700;
+    font-style: oblique;
+}
+.pa{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: center;
+}

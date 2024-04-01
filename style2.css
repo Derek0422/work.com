@@ -1,0 +1,77 @@
+body{
+    background:linear-gradient(135deg,#391313,rgb(15, 16, 18));
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+
+button{
+    padding: 20px;
+    border: none;
+    color: white;
+    /* border: 2px solid orange; */
+    outline: none;
+    background-color: orange;
+    text-decoration: double;
+    border-radius: 20px;
+    width: 150%;
+    /* background-color: orange; */
+}
+.btn{
+    display: flex;
+    gap: 5rem;
+    align-items: center;
+    justify-content: center;
+}
+.btn a{
+    display: flex;
+    align-items: center;
+
+}
+
+a{
+    width: 130;
+    outline: none;
+    border: none;
+    /* border: 1px solid orange; */
+}
+p{
+    padding: 2rem;
+    font-size: 17px;
+    /* backdrop-filter: blur(2px); */
+    border: 1px solid orange;
+    border-radius: 20px;
+}
+
+ion-icon{
+    font-size: 5rem;
+    border-bottom: 2px solid white;
+    color: orange;
+    transform: translateY(0px);
+    animation: float 3s ease-in-out infinite;
+}
+@keyframes float {
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(-60px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+span{
+    color: green;
+}
+h1{
+    font-size: 50px;
+    color: orange;
+}
